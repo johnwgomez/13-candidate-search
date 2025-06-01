@@ -1,3 +1,5 @@
+import './SavedCandidates.css';
+
 const SavedCandidates = () => {
   return (
     <>

@@ -1,0 +1,131 @@
+/* src/pages/CandidateSearch.css */
+
+/* Page gradient background */
+.candidate-search-page {
+  background: linear-gradient(180deg, #001f4d 0%, #000033 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+/* Top navigation */
+.main-nav {
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+.main-nav .nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.main-nav .nav-link:hover,
+.main-nav .nav-link.active {
+  text-decoration: underline;
+}
+
+/* Center content container */
+.search-content {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* Page heading */
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Candidate card */
+.candidate-card {
+  background-color: #f0f4ff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Avatar at top of card */
+.candidate-avatar {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+  background-color: #e0e7ff;
+}
+
+/* Candidate details section (dark background) */
+.candidate-details {
+  background-color: #0a0f33;
+  color: #ffffff;
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+}
+.candidate-details h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+.candidate-details p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+.email-link,
+.github-link {
+  color: #4da6ff;
+  text-decoration: none;
+}
+.email-link:hover,
+.github-link:hover {
+  text-decoration: underline;
+}
+
+/* Buttons row */
+.candidate-actions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem 0 2rem;
+}
+.skip-btn,
+.save-btn {
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skip-btn {
+  background-color: #d32f2f;
+}
+.save-btn {
+  background-color: #388e3c;
+}
+.skip-btn:hover {
+  background-color: #b71c1c;
+}
+.save-btn:hover {
+  background-color: #2e7d32;
+}
+
+/* “No more candidates” message */
+.no-more-msg {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
