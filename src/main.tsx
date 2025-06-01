@@ -18,7 +18,8 @@ const router = createBrowserRouter([
         element: <CandidateSearch />,
       },
       {
-        path: '/SavedCandidates',
+        // This must match navigate('/potentialcandidates')
+        path: '/potentialcandidates',
         element: <SavedCandidates />,
       },
     ],
