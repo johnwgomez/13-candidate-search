@@ -72,11 +72,11 @@ Below is a quick walkthrough of how the app behaves:
 
 ### Candidate Search Page
 
-![Candidate Search Screenshot](./screenshots/candidate-search.png)
+![Candidate Search Screenshot](./public/home%20screen.png)
 
 ### Potential Candidates (Saved Candidates) Page
 
-![Potential Candidates Screenshot](./screenshots/saved-candidates.png)
+![Potential Candidates Screenshot](./public/potential.png)
 
 ---
 
